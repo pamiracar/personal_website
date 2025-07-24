@@ -82,7 +82,7 @@ class AppTheme {
       textTheme: const TextTheme(
         displayLarge: TextStyle(
           color: _primaryWhite,
-          fontSize: 32,
+          fontSize: 40,
           fontWeight: FontWeight.w700,
           fontFamily: 'JetBrainsMono',
         ),
