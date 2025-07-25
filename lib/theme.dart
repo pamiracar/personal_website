@@ -110,6 +110,7 @@ class AppTheme {
           fontWeight: FontWeight.w500,
           fontFamily: 'JetBrainsMono',
         ),
+
         titleLarge: TextStyle(
           color: _primaryWhite,
           fontSize: 18,
@@ -117,7 +118,7 @@ class AppTheme {
           fontFamily: 'JetBrainsMono',
         ),
         titleMedium: TextStyle(
-          color: _primaryWhite,
+          color: Colors.grey,
           fontSize: 16,
           fontWeight: FontWeight.w500,
           fontFamily: 'JetBrainsMono',

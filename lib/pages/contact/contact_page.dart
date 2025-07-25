@@ -61,7 +61,7 @@ class _ContactPageState extends State<ContactPage> {
               children: [
                 const SizedBox(height: 50),
                 Text(
-                  "My Contacts",
+                  "Contact",
                   style: Theme.of(context).textTheme.displayLarge,
                 ),
                 SizedBox(height: 70),
@@ -70,9 +70,13 @@ class _ContactPageState extends State<ContactPage> {
                     padding: const EdgeInsets.all(20.0),
                     child: Column(
                       children: [
-                        SvgPicture.network(
-                          "https://www.vectorlogo.zone/logos/google/google-ar21.svg",
-                          width: 200,
+                        Glass(
+                          height: 100,
+                          width: 400,
+                          wid: SvgPicture.network(
+                            "https://www.vectorlogo.zone/logos/google/google-ar21.svg",
+                            width: 200,
+                          ),
                         ),
                         const SizedBox(height: 30),
                         const Text(
@@ -92,17 +96,14 @@ class _ContactPageState extends State<ContactPage> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Container(
+                        Glass(
                           height: 100,
-                          width: 300,
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(15),
-                          ),
-                          child: Center(
+                          width: 400,
+                          wid: Center(
                             child: SvgPicture.asset(
                               "assets/images/github.svg",
-                              width: 200,
+                              width: 180,
+                              color: Colors.grey,
                             ),
                           ),
                         ),
@@ -132,16 +133,12 @@ class _ContactPageState extends State<ContactPage> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Container(
+                        Glass(
                           height: 100,
-                          width: 300,
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(15),
-                          ),
-                          child: Center(
+                          width: 400,
+                          wid: Center(
                             child: SvgPicture.network(
-                              "https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21~bgwhite.svg",
+                              "https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21.svg",
                               width: 300,
                             ),
                           ),

@@ -140,7 +140,7 @@ class _DevPageState extends State<DevPage> {
                             ),
                             child: Image.network(
                               "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?cs=srgb&dl=pexels-kevin-ku-92347-577585.jpg&fm=jpg",
-                              height: 370,
+                              height: 350,
                             ),
                           ),
                           ClipRRect(
@@ -150,7 +150,7 @@ class _DevPageState extends State<DevPage> {
                             ),
                             child: Image.network(
                               "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-166706-546819.jpg&fm=jpg",
-                              height: 370,
+                              height: 350,
                             ),
                           ),
                         ],
@@ -185,7 +185,7 @@ class _DevPageState extends State<DevPage> {
                     ],
                   ),
                   SizedBox(height: 100,),
-                  
+
                 ],
               ),
             ),
