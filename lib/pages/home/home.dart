@@ -8,6 +8,8 @@ import 'package:personal_website/pages/home/home_page.dart';
 import 'package:personal_website/pages/home/home_page_mobile.dart';
 import 'package:personal_website/pages/responsive_gate.dart';
 import 'package:personal_website/pages/responsive_layout.dart';
+import 'dart:html' as html;
+
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -31,9 +33,11 @@ class ProjectWidget extends StatelessWidget {
   final bool isApk;
   final bool isLogoPng;
   final double height;
+  final String url;
 
   const ProjectWidget({
     super.key,
+    required this.url,
     required this.language,
     required this.image,
     required this.name,
@@ -90,15 +94,18 @@ class ProjectWidget extends StatelessWidget {
               style: const TextStyle(color: Colors.grey),
             ),
             SizedBox(height: 13),
-            Container(
-              height: 50,
-              width: 250,
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(15),
-              ),
-              child: Center(
-                child: SvgPicture.asset("assets/images/github.svg", width: 100),
+            GestureDetector(
+              onTap:() => html.window.open(url, "_blank"),
+              child: Container(
+                height: 50,
+                width: 250,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(15),
+                ),
+                child: Center(
+                  child: SvgPicture.asset("assets/images/github.svg", width: 100),
+                ),
               ),
             ),
           ],

@@ -5,7 +5,6 @@ import 'package:personal_website/app_routes.dart';
 import 'package:personal_website/pages/home/glass.dart';
 import 'dart:html' as html;
 
-
 class ContactPage extends StatefulWidget {
   const ContactPage({super.key});
 
@@ -108,9 +107,18 @@ class _ContactPageState extends State<ContactPage> {
                           ),
                         ),
                         const SizedBox(height: 30),
-                        ElevatedButton(onPressed:() {
-                          html.window.open("https://github.com/pamiracar", "_blank");
-                        }, child: const Text("Press here", style: TextStyle(fontSize: 25),))
+                        ElevatedButton(
+                          onPressed: () {
+                            html.window.open(
+                              "https://github.com/pamiracar",
+                              "_blank",
+                            );
+                          },
+                          child: const Text(
+                            "Press here",
+                            style: TextStyle(fontSize: 25),
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -139,15 +147,25 @@ class _ContactPageState extends State<ContactPage> {
                           ),
                         ),
                         const SizedBox(height: 30),
-                        ElevatedButton(onPressed:() {
-                          html.window.open("https://www.linkedin.com/in/pamir-açar-146485332", "_blank");
-                        }, child: const Text("Press here", style: TextStyle(fontSize: 25),))
+                        ElevatedButton(
+                          onPressed: () {
+                            html.window.open(
+                              "https://www.linkedin.com/in/pamir-açar-146485332",
+                              "_blank",
+                            );
+                          },
+                          child: const Text(
+                            "Press here",
+                            style: TextStyle(fontSize: 25),
+                          ),
+                        ),
                       ],
                     ),
                   ),
                   height: 250,
                   width: 500,
                 ),
+                SizedBox(height: 50),
               ],
             ),
           ),

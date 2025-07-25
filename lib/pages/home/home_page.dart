@@ -187,7 +187,7 @@ class _HomePageState extends State<HomePage> {
                           content: "Minimalist Daily Water Tracker",
                           isApk: true,
                           isLogoPng: true,
-                          height: 75,
+                          height: 75, url: 'https://github.com/pamiracar/drip/releases',
                         ),
                         ProjectWidget(
                           language: "Dart",
@@ -196,7 +196,7 @@ class _HomePageState extends State<HomePage> {
                           content: "Minimalist Designed To-Do App",
                           isApk: false,
                           isLogoPng: true,
-                          height: 75,
+                          height: 75, url: 'https://github.com/pamiracar/Task-Riot',
                         ),
                         ProjectWidget(
                           language: "Dart",
@@ -206,7 +206,7 @@ class _HomePageState extends State<HomePage> {
                               "Open Source Weather App Developed with OpenWeather",
                           isApk: false,
                           isLogoPng: true,
-                          height: 56,
+                          height: 56, url: 'https://github.com/pamiracar/SkyCast_Weather_App',
                         ),
                         ProjectWidget(
                           language: "Python",
@@ -215,7 +215,7 @@ class _HomePageState extends State<HomePage> {
                           content: "Daily currency API",
                           isApk: false,
                           isLogoPng: false,
-                          height: 75,
+                          height: 75, url: 'https://github.com/pamiracar/currency_api',
                         ),
                         ProjectWidget(
                           language: "Kotlin",
@@ -224,7 +224,7 @@ class _HomePageState extends State<HomePage> {
                           content: "To-Do App with Native Android",
                           isApk: false,
                           isLogoPng: false,
-                          height: 75,
+                          height: 75, url: 'https://github.com/pamiracar/Tod-Ap_--_A_Todo_App',
                         ),
                         ProjectWidget(
                           language: "Kotlin",
@@ -234,7 +234,7 @@ class _HomePageState extends State<HomePage> {
                               "Photo Sharing App with Firebase. My First App (Worst UI)",
                           isApk: false,
                           isLogoPng: false,
-                          height: 50,
+                          height: 50, url: 'https://github.com/pamiracar/Picto---Firebase_ile_Fotograf_Paylasma',
                         ),
                         ProjectWidget(
                           language: "Python",
@@ -244,7 +244,7 @@ class _HomePageState extends State<HomePage> {
                               "My first saved and official programming product. It was created for a competition by me and one of my friend",
                           isApk: false,
                           isLogoPng: false,
-                          height: 10,
+                          height: 10, url: 'https://github.com/pamiracar/OsmanliPadisahlariVeSavaslari---Tubitak',
                         ),
                       ],
                     ),
