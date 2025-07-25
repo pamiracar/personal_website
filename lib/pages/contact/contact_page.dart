@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:personal_website/app_routes.dart';
+import 'package:personal_website/pages/home/glass.dart';
+import 'dart:html' as html;
+
 
 class ContactPage extends StatefulWidget {
   const ContactPage({super.key});
@@ -30,7 +34,7 @@ class _ContactPageState extends State<ContactPage> {
             SizedBox(width: 60),
             GestureDetector(
               onTap: () {
-                Get.toNamed(AppRoutes.DEV);
+                Get.offAndToNamed(AppRoutes.DEV);
               },
               child: Text(
                 "Interests",
@@ -50,7 +54,105 @@ class _ContactPageState extends State<ContactPage> {
           ],
         ),
       ),
-      body: Center(child: const Text("Contact desktop"),),
+      body: SingleChildScrollView(
+        child: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(15.0),
+            child: Column(
+              children: [
+                const SizedBox(height: 50),
+                Text(
+                  "My Contacts",
+                  style: Theme.of(context).textTheme.displayLarge,
+                ),
+                SizedBox(height: 70),
+                Glass(
+                  wid: Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Column(
+                      children: [
+                        SvgPicture.network(
+                          "https://www.vectorlogo.zone/logos/google/google-ar21.svg",
+                          width: 200,
+                        ),
+                        const SizedBox(height: 30),
+                        const Text(
+                          "pamiracar.dev@gmail.com",
+                          style: TextStyle(color: Colors.grey, fontSize: 25),
+                        ),
+                      ],
+                    ),
+                  ),
+                  height: 230,
+                  width: 500,
+                ),
+                SizedBox(height: 50),
+                Glass(
+                  wid: Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          height: 100,
+                          width: 300,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          child: Center(
+                            child: SvgPicture.asset(
+                              "assets/images/github.svg",
+                              width: 200,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 30),
+                        ElevatedButton(onPressed:() {
+                          html.window.open("https://github.com/pamiracar", "_blank");
+                        }, child: const Text("Press here", style: TextStyle(fontSize: 25),))
+                      ],
+                    ),
+                  ),
+                  height: 250,
+                  width: 500,
+                ),
+                SizedBox(height: 50),
+                Glass(
+                  wid: Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          height: 100,
+                          width: 300,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          child: Center(
+                            child: SvgPicture.network(
+                              "https://www.vectorlogo.zone/logos/linkedin/linkedin-ar21~bgwhite.svg",
+                              width: 300,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 30),
+                        ElevatedButton(onPressed:() {
+                          html.window.open("https://www.linkedin.com/in/pamir-açar-146485332", "_blank");
+                        }, child: const Text("Press here", style: TextStyle(fontSize: 25),))
+                      ],
+                    ),
+                  ),
+                  height: 250,
+                  width: 500,
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

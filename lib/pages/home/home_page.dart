@@ -5,6 +5,8 @@ import 'package:personal_website/app_routes.dart';
 import 'package:personal_website/pages/home/home.dart';
 import 'package:personal_website/pages/home/home_page_mobile.dart';
 import 'package:personal_website/pages/responsive_gate.dart';
+import 'dart:html' as html;
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -34,7 +36,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(width: 60),
             GestureDetector(
               onTap: () {
-                Get.toNamed(AppRoutes.DEV);
+                Get.offAndToNamed(AppRoutes.DEV);
               },
               child: Text(
                 "Interest",
@@ -44,7 +46,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(width: 60),
             GestureDetector(
               onTap: () {
-                Get.toNamed(AppRoutes.CON);
+                Get.offAndToNamed(AppRoutes.CON);
               },
               child: Text(
                 "Contact",

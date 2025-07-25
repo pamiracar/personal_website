@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:personal_website/app_routes.dart';
@@ -41,7 +42,7 @@ class _DevPageState extends State<DevPage> {
             SizedBox(width: 60),
             GestureDetector(
               onTap: () {
-                Get.toNamed(AppRoutes.CON);
+                Get.offAndToNamed(AppRoutes.CON);
               },
               child: Text(
                 "Contact",
@@ -123,6 +124,68 @@ class _DevPageState extends State<DevPage> {
                       ),
                     ],
                   ),
+                  SizedBox(
+                    height: 100,
+                  ),
+                  Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          ClipRRect(
+                            borderRadius: BorderRadiusGeometry.only(
+                              topLeft: Radius.circular(30),
+                              bottomLeft: Radius.circular(30),
+                            ),
+                            child: Image.network(
+                              "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?cs=srgb&dl=pexels-kevin-ku-92347-577585.jpg&fm=jpg",
+                              height: 370,
+                            ),
+                          ),
+                          ClipRRect(
+                            borderRadius: BorderRadiusGeometry.only(
+                              topRight: Radius.circular(30),
+                              bottomRight: Radius.circular(30),
+                            ),
+                            child: Image.network(
+                              "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-166706-546819.jpg&fm=jpg",
+                              height: 370,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Glass(
+                            wid: Padding(
+                              padding: const EdgeInsets.all(15.0),
+                              child: Column(
+                                children: [
+                                  Text(
+                                    "Programming",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 25,
+                                      fontWeight: FontWeight.w600,
+                                    ),
+                                  ),
+                                  SizedBox(height: 10,),
+                                  Text("I was wanted to learn programming since I was little. I started my programming journey with Python in 2022. I started to learn Native Android Mobile Development in January 2025. I learned Flutter completely in July 2025. Now I am a Jr. Flutter Developer.", textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),)
+                                ],
+                              ),
+                            ),
+                            height: 200,
+                            width: 500,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 100,),
+                  
                 ],
               ),
             ),
