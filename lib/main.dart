@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
       getPages: [
+        GetPage(name: "/", page:() => Home(),),
         GetPage(name: AppRoutes.HOME, page: () => HomePage()),
         GetPage(name: AppRoutes.DEVELOPMENT, page: () => DevPage()),
         GetPage(name: AppRoutes.CONTACT, page: () => ContactPage()),

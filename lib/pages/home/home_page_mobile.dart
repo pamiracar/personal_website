@@ -154,7 +154,7 @@ class _HomePageMState extends State<HomePageM> {
                         width: 300,
                         heightCo: 540,
                       ),
-                      SizedBox(height: 30,),
+                      SizedBox(height: 30),
                       ProjectWidget(
                         language: "Dart",
                         image: "assets/images/flutterLogo.png",
@@ -167,7 +167,7 @@ class _HomePageMState extends State<HomePageM> {
                         width: 300,
                         heightCo: 540,
                       ),
-                      SizedBox(height: 30,),
+                      SizedBox(height: 30),
                       ProjectWidget(
                         language: "Dart",
                         image: "assets/images/flutterLogo.png",
@@ -181,7 +181,7 @@ class _HomePageMState extends State<HomePageM> {
                         width: 300,
                         heightCo: 540,
                       ),
-                      SizedBox(height: 30,),
+                      SizedBox(height: 30),
                       ProjectWidget(
                         language: "Python",
                         image: "assets/images/pythonLogo.svg",
@@ -194,7 +194,7 @@ class _HomePageMState extends State<HomePageM> {
                         width: 300,
                         heightCo: 540,
                       ),
-                      SizedBox(height: 30,),
+                      SizedBox(height: 30),
                       ProjectWidget(
                         language: "Kotlin",
                         image: "assets/images/androidLogo.svg",
@@ -208,7 +208,7 @@ class _HomePageMState extends State<HomePageM> {
                         width: 300,
                         heightCo: 540,
                       ),
-                      SizedBox(height: 30,),
+                      SizedBox(height: 30),
                       ProjectWidget(
                         language: "Kotlin",
                         image: "assets/images/androidLogo.svg",
@@ -223,7 +223,7 @@ class _HomePageMState extends State<HomePageM> {
                         width: 300,
                         heightCo: 540,
                       ),
-                      SizedBox(height: 30,),
+                      SizedBox(height: 30),
                       ProjectWidget(
                         language: "Python",
                         image: "assets/images/pythonLogo.svg",
