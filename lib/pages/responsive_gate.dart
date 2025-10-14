@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:personal_website/pages/home/home.dart';
+import 'package:personal_website/pages/home/project_widget.dart';
 import 'package:personal_website/pages/home/home_page_mobile.dart';
 
 class ResponsiveGate extends StatefulWidget {

@@ -8,7 +8,7 @@ import 'package:personal_website/pages/development/development_page.dart';
 import 'package:personal_website/pages/development/development.dart';
 import 'package:personal_website/pages/development/development_page_mobile.dart';
 import 'package:personal_website/pages/home/home_page.dart';
-import 'package:personal_website/pages/home/home.dart';
+import 'package:personal_website/pages/home/project_widget.dart';
 import 'package:personal_website/pages/home/home_page_mobile.dart';
 import 'package:personal_website/theme.dart';
 

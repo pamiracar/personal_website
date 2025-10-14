@@ -77,12 +77,13 @@ class _DevPageMState extends State<DevPageM> {
                           ),
                           height: 80,
                           width: 200,
+
                         ),
                       ],
                     ),
                   ],
                 ),
-                SizedBox(height: 60,),
+                SizedBox(height: 60),
                 Stack(
                   alignment: Alignment.center,
                   children: [
@@ -130,7 +131,7 @@ class _DevPageMState extends State<DevPageM> {
                     ),
                   ],
                 ),
-                SizedBox(height: 60,),
+                SizedBox(height: 60),
               ],
             ),
           ),

@@ -6,7 +6,7 @@ class Glass extends StatefulWidget {
   final Widget wid;
   final double height;
   final double width;
-  const Glass({super.key, required this.wid, required this.height, required this.width});
+  Glass({super.key, required this.wid, required this.height, required this.width});
 
   @override
   State<Glass> createState() => _GlassState();

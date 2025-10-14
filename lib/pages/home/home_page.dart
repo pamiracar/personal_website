@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:personal_website/app_routes.dart';
-import 'package:personal_website/pages/home/home.dart';
+import 'package:personal_website/pages/home/project_widget.dart';
 import 'package:personal_website/pages/home/home_page_mobile.dart';
 import 'package:personal_website/pages/responsive_gate.dart';
 import 'dart:html' as html;
@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                 SizedBox(height: 50),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(300),
-                  child: Image.asset("assets/images/logoPamir.png", width: 300),
+                  child: Image.asset("assets/images/ana_resim.png", width: 400),
                 ),
                 SizedBox(height: 70),
                 Text(
@@ -152,6 +152,11 @@ class _HomePageState extends State<HomePage> {
                       "https://www.vectorlogo.zone/logos/android/android-icon.svg",
                       width: 80,
                     ),
+                    SizedBox(width: 20),
+                    SvgPicture.network(
+                      "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+                      width: 80,
+                    ),
                   ],
                 ),
                 SizedBox(height: 80),
@@ -166,7 +171,7 @@ class _HomePageState extends State<HomePage> {
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 15),
-                const Text("Last Update: 07 July 2025"),
+                const Text("Last Update: 14 October 2025"),
                 SizedBox(height: 15),
                 SizedBox(
                   width: 650,

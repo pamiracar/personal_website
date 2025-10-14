@@ -66,11 +66,13 @@ class _ContactPageState extends State<ContactPage> {
                 ),
                 SizedBox(height: 70),
                 Glass(
+
                   wid: Padding(
                     padding: const EdgeInsets.all(20.0),
                     child: Column(
                       children: [
                         Glass(
+
                           height: 100,
                           width: 400,
                           wid: SvgPicture.network(
@@ -80,7 +82,7 @@ class _ContactPageState extends State<ContactPage> {
                         ),
                         const SizedBox(height: 30),
                         const Text(
-                          "pamiracar.dev@gmail.com",
+                          "pamiracar1@gmail.com",
                           style: TextStyle(color: Colors.grey, fontSize: 25),
                         ),
                       ],
@@ -91,12 +93,14 @@ class _ContactPageState extends State<ContactPage> {
                 ),
                 SizedBox(height: 50),
                 Glass(
+
                   wid: Padding(
                     padding: const EdgeInsets.all(20.0),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Glass(
+
                           height: 100,
                           width: 400,
                           wid: Center(
@@ -128,12 +132,14 @@ class _ContactPageState extends State<ContactPage> {
                 ),
                 SizedBox(height: 50),
                 Glass(
+
                   wid: Padding(
                     padding: const EdgeInsets.all(20.0),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Glass(
+
                           height: 100,
                           width: 400,
                           wid: Center(

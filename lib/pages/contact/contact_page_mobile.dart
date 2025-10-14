@@ -6,7 +6,6 @@ import 'package:personal_website/pages/home/glass.dart';
 import 'package:personal_website/pages/home/home_page_mobile.dart';
 import 'dart:html' as html;
 
-
 class ContactPageM extends StatefulWidget {
   const ContactPageM({super.key});
 
@@ -53,7 +52,7 @@ class _ContactPageMState extends State<ContactPageM> {
                         ),
                         const SizedBox(height: 15),
                         const Text(
-                          "pamiracar.dev@gmail.com",
+                          "pamiracar1@gmail.com",
                           style: TextStyle(color: Colors.grey, fontSize: 17),
                         ),
                       ],
@@ -64,12 +63,14 @@ class _ContactPageMState extends State<ContactPageM> {
                 ),
                 SizedBox(height: 30),
                 Glass(
+
                   wid: Padding(
                     padding: const EdgeInsets.all(20.0),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Glass(
+
                           height: 100,
                           width: 300,
                           wid: Center(
@@ -101,6 +102,7 @@ class _ContactPageMState extends State<ContactPageM> {
                 ),
                 SizedBox(height: 30),
                 Glass(
+
                   wid: Padding(
                     padding: const EdgeInsets.all(20.0),
                     child: Column(

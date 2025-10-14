@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get_rx/get_rx.dart';
 import 'package:personal_website/pages/home/glass.dart';
 import 'package:personal_website/pages/home/home_page.dart';
 import 'package:personal_website/pages/home/home_page_mobile.dart';
 import 'package:personal_website/pages/responsive_layout.dart';
 import 'dart:html' as html;
-
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -33,7 +33,7 @@ class ProjectWidget extends StatelessWidget {
   final double width;
   final double heightCo;
 
-  const ProjectWidget({
+  ProjectWidget({
     super.key,
     required this.url,
     required this.language,
@@ -43,8 +43,11 @@ class ProjectWidget extends StatelessWidget {
     required this.isApk,
     required this.isLogoPng,
     required this.height,
-    required this.width, required this.heightCo,
+    required this.width,
+    required this.heightCo,
   });
+
+  RxBool isHovering = false.obs;
 
   @override
   Widget build(BuildContext context) {
@@ -93,13 +96,18 @@ class ProjectWidget extends StatelessWidget {
               style: const TextStyle(color: Colors.grey),
             ),
             SizedBox(height: 13),
-            GestureDetector(
-              onTap:() => html.window.open(url, "_blank"),
-              child: Glass(
-                height: 60,
-                width: 250,
-                wid: Center(
-                  child: SvgPicture.asset("assets/images/github.svg", width: 80, color: Colors.grey,),
+            ElevatedButton(
+              onPressed: () {
+                html.window.open(url, "_blank");
+              },
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10),
+                child: Center(
+                  child: SvgPicture.asset(
+                    "assets/images/github.svg",
+                    width: 100,
+                    color: Colors.grey,
+                  ),
                 ),
               ),
             ),

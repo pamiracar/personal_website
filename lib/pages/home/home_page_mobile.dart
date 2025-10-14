@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:personal_website/app_routes.dart';
-import 'package:personal_website/pages/home/home.dart';
+import 'package:personal_website/pages/home/project_widget.dart';
 
 class HomePageM extends StatefulWidget {
   const HomePageM({super.key});
@@ -46,7 +46,7 @@ class _HomePageMState extends State<HomePageM> {
                 SizedBox(height: 40),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(300),
-                  child: Image.asset("assets/images/logoPamir.png", width: 180),
+                  child: Image.asset("assets/images/ana_resim.png", width: 270),
                 ),
                 SizedBox(height: 30),
                 Text(
@@ -120,6 +120,11 @@ class _HomePageMState extends State<HomePageM> {
                       "https://www.vectorlogo.zone/logos/android/android-icon.svg",
                       width: 35,
                     ),
+                    SizedBox(width: 20),
+                    SvgPicture.network(
+                      "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+                      width: 35,
+                    ),
                   ],
                 ),
                 SizedBox(height: 60),
@@ -134,7 +139,7 @@ class _HomePageMState extends State<HomePageM> {
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 10),
-                const Text("Last Update: 07 July 2025"),
+                const Text("Last Update: 14 October 2025"),
                 SizedBox(height: 10),
                 SizedBox(
                   width: 350,
@@ -275,7 +280,7 @@ class Navigationawer extends StatelessWidget {
         Text("Pamir Açar", style: Theme.of(context).textTheme.displayMedium),
         SizedBox(height: 10),
         Text(
-          "pamiracar.dev@gmail.com",
+          "pamiracar1@gmail.com",
           style: Theme.of(context).textTheme.titleMedium,
         ),
       ],
