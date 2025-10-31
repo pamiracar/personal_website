@@ -32,11 +32,11 @@ class _HomePageMState extends State<HomePageM> {
               children: [
                 SizedBox(height: 15),
                 const Text(
-                  '"Talk is cheap, show me the code!"',
-                  style: TextStyle(color: Colors.grey, fontSize: 15),
+                  '"Code is like humor. When you have to explain it, it’s bad."',
+                  style: TextStyle(color: Colors.grey, fontSize: 15), textAlign: TextAlign.center,
                 ),
                 const Text(
-                  "~ Linus Torvalds",
+                  "~ Cory House",
                   style: TextStyle(
                     color: Colors.grey,
                     fontStyle: FontStyle.italic,
@@ -45,8 +45,8 @@ class _HomePageMState extends State<HomePageM> {
                 ),
                 SizedBox(height: 40),
                 ClipRRect(
-                  borderRadius: BorderRadius.circular(300),
-                  child: Image.asset("assets/images/ana_resim.png", width: 270),
+                  borderRadius: BorderRadius.circular(30),
+                  child: Image.asset("assets/images/ana_resim.png", width: 400),
                 ),
                 SizedBox(height: 30),
                 Text(
@@ -57,7 +57,7 @@ class _HomePageMState extends State<HomePageM> {
                 SizedBox(
                   width: 500,
                   child: Text(
-                    "Hi, I am a highschool student in Izmir Ataturk High School who loves Phonk, Cars, Formula 1 (Ferrari) and Programming. I wrote my first line of code in 2022 with Python. Now, I am a Jr. Flutter Developer since 1 July 2025, I started Mobile Development in January 2025 with Native Android Development (Kotlin). You can see my all sertificates at my Linkedin and my apps at Github.",
+                    "Hi, I am a high school student in Izmir Ataturk High School who loves Phonk, Cars, Formula 1 (Ferrari) and Programming. I wrote my first line of code in 2022 with Python. Now, I am a Jr. Flutter Developer since 1 July 2025, I started Mobile Development in January 2025 with Native Android Development (Kotlin). You can see my all sertificates at my Linkedin and my apps at Github.",
                     textAlign: TextAlign.center,
                     style: TextStyle(color: Colors.grey),
                   ),
@@ -72,28 +72,28 @@ class _HomePageMState extends State<HomePageM> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SvgPicture.network(
-                      "https://www.vectorlogo.zone/logos/python/python-icon.svg",
-                      width: 35,
+                      "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg",
+                      width: 60,
                     ),
                     SizedBox(width: 10),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg",
-                      width: 35,
+                      width: 60,
                     ),
                     SizedBox(width: 10),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg",
-                      width: 75,
+                      width: 110,
                     ),
                     SizedBox(width: 10),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg",
-                      width: 35,
+                      width: 60,
                     ),
                     SizedBox(width: 10),
                     SvgPicture.network(
                       "https://upload.wikimedia.org/wikipedia/commons/3/31/Apple_logo_white.svg",
-                      width: 35,
+                      width: 60,
                     ),
                   ],
                 ),
@@ -102,28 +102,28 @@ class _HomePageMState extends State<HomePageM> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SvgPicture.network(
-                      "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg",
-                      width: 35,
+                      "https://www.vectorlogo.zone/logos/python/python-icon.svg",
+                      width: 60,
                     ),
                     SizedBox(width: 10),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-                      width: 35,
+                      width: 60,
                     ),
                     SizedBox(width: 10),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-                      width: 35,
+                      width: 60,
                     ),
                     SizedBox(width: 10),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/android/android-icon.svg",
-                      width: 35,
+                      width: 60,
                     ),
                     SizedBox(width: 20),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/java/java-icon.svg",
-                      width: 35,
+                      width: 60,
                     ),
                   ],
                 ),
@@ -139,7 +139,7 @@ class _HomePageMState extends State<HomePageM> {
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 10),
-                const Text("Last Update: 14 October 2025"),
+                const Text("Last Update: 31 October 2025"),
                 SizedBox(height: 10),
                 SizedBox(
                   width: 350,
@@ -157,7 +157,7 @@ class _HomePageMState extends State<HomePageM> {
                         height: 75,
                         url: 'https://github.com/pamiracar/drip/releases',
                         width: 300,
-                        heightCo: 540,
+                        heightCo: 505,
                       ),
                       SizedBox(height: 30),
                       ProjectWidget(
@@ -170,7 +170,7 @@ class _HomePageMState extends State<HomePageM> {
                         height: 75,
                         url: 'https://github.com/pamiracar/Task-Riot',
                         width: 300,
-                        heightCo: 540,
+                        heightCo: 505,
                       ),
                       SizedBox(height: 30),
                       ProjectWidget(
@@ -184,7 +184,7 @@ class _HomePageMState extends State<HomePageM> {
                         height: 56,
                         url: 'https://github.com/pamiracar/SkyCast_Weather_App',
                         width: 300,
-                        heightCo: 540,
+                        heightCo: 505,
                       ),
                       SizedBox(height: 30),
                       ProjectWidget(
@@ -197,7 +197,7 @@ class _HomePageMState extends State<HomePageM> {
                         height: 75,
                         url: 'https://github.com/pamiracar/currency_api',
                         width: 300,
-                        heightCo: 540,
+                        heightCo: 505,
                       ),
                       SizedBox(height: 30),
                       ProjectWidget(
@@ -211,7 +211,7 @@ class _HomePageMState extends State<HomePageM> {
                         url:
                             'https://github.com/pamiracar/Tod-Ap_--_A_Todo_App',
                         width: 300,
-                        heightCo: 540,
+                        heightCo: 505,
                       ),
                       SizedBox(height: 30),
                       ProjectWidget(
@@ -226,7 +226,7 @@ class _HomePageMState extends State<HomePageM> {
                         url:
                             'https://github.com/pamiracar/Picto---Firebase_ile_Fotograf_Paylasma',
                         width: 300,
-                        heightCo: 540,
+                        heightCo: 505,
                       ),
                       SizedBox(height: 30),
                       ProjectWidget(
@@ -241,7 +241,7 @@ class _HomePageMState extends State<HomePageM> {
                         url:
                             'https://github.com/pamiracar/OsmanliPadisahlariVeSavaslari---Tubitak',
                         width: 300,
-                        heightCo: 540,
+                        heightCo: 505,
                       ),
                     ],
                   ),
