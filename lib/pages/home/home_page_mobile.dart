@@ -125,6 +125,14 @@ class _HomePageMState extends State<HomePageM> {
                       "https://www.vectorlogo.zone/logos/java/java-icon.svg",
                       width: 60,
                     ),
+                    SvgPicture.network(
+                      "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+                      width: 60,
+                    ),
+                    SvgPicture.network(
+                      "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon~old.svg",
+                      width: 60,
+                    ),
                   ],
                 ),
                 SizedBox(height: 60),
@@ -139,7 +147,7 @@ class _HomePageMState extends State<HomePageM> {
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 10),
-                const Text("Last Update: 31 October 2025"),
+                const Text("Last Update: 13 February 2026"),
                 SizedBox(height: 10),
                 SizedBox(
                   width: 350,
