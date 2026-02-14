@@ -57,7 +57,7 @@ class _HomePageMState extends State<HomePageM> {
                 SizedBox(
                   width: 500,
                   child: Text(
-                    "Hi, I am a high school student in Izmir Ataturk High School who loves Phonk, Cars, Formula 1 (Ferrari) and Programming. I wrote my first line of code in 2022 with Python. Now, I am a Jr. Flutter Developer since 1 July 2025, I started Mobile Development in January 2025 with Native Android Development (Kotlin). You can see my all sertificates at my Linkedin and my apps at Github.",
+                    "Hi, I am a h school student in Izmir Ataturk High School who loves Phonk, Cars, Formula 1 (Ferrari) and Programming. I wrote my first line of code in 2022 with Python. Now, I am a Jr. Flutter Developer since 1 July 2025, I started Mobile Development in January 2025 with Native Android Development (Kotlin). You can see my all sertificates at my Linkedin and my apps at Github.",
                     textAlign: TextAlign.center,
                     style: TextStyle(color: Colors.grey),
                   ),

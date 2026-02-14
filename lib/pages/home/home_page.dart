@@ -3,9 +3,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:personal_website/app_routes.dart';
 import 'package:personal_website/pages/home/project_widget.dart';
-import 'package:personal_website/pages/home/home_page_mobile.dart';
-import 'package:personal_website/pages/responsive_gate.dart';
-import 'dart:html' as html;
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -64,11 +61,11 @@ class _HomePageState extends State<HomePage> {
               children: [
                 SizedBox(height: 30),
                 const Text(
-                  '"Code is like humor. When you have to explain it, it’s bad."',
+                  '"Talk is cheap, show me the code!"',
                   style: TextStyle(color: Colors.grey, fontSize: 20),
                 ),
                 const Text(
-                  "~ Cory House",
+                  "~ Linus Torvalds",
                   style: TextStyle(
                     color: Colors.grey,
                     fontStyle: FontStyle.italic,
@@ -91,16 +88,16 @@ class _HomePageState extends State<HomePage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Pamir Açar",
+                          "değişti",
                           style: TextStyle(
-                            fontSize: 70
+                            fontSize: 70,
                           )
                         ),
                         SizedBox(height: 20),
                         SizedBox(
-                          width: 500,
+                          width: 500, 
                           child: Text(
-                            "Hi, I am a high school student in Izmir Ataturk High School who loves Phonk, Cars, Formula 1 (Ferrari) and Programming. I wrote my first line of code in 2022 with Python. Now, I am a Jr. Flutter Developer since 1 July 2025, I started Mobile Development in January 2025 with Native Android Development (Kotlin). You can see my all sertificates at my Linkedin and my apps at Github.",
+                            "Hi, I am a high school student in Izmir Ataturk High School who loves Phonk, Cars, Formula 1 (Ferrari) and Programming. I wrote my first line of code in 2022 with Python. Now, I am a Flutter Developer since 1 July 2025, I started Mobile Development in January 2025 with Native Android Development (Kotlin). You can see my all sertificates at my Linkedin and my apps at Github.",
                             textAlign: TextAlign.start,
                             style: TextStyle(color: Colors.grey),
                           ),
