@@ -72,72 +72,46 @@ class _HomePageState extends State<HomePage> {
                     fontSize: 20,
                   ),
                 ),
-                SizedBox(height: 50),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(30),
-                      child: Image.asset(
-                        "assets/images/ana_resim.png",
-                        width: 400,
-                      ),
-                    ),
-                    SizedBox(width: 70,),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          "değişti",
-                          style: TextStyle(
-                            fontSize: 70,
-                          )
-                        ),
-                        SizedBox(height: 20),
-                        SizedBox(
-                          width: 500, 
-                          child: Text(
-                            "Hi, I am a high school student in Izmir Ataturk High School who loves Phonk, Cars, Formula 1 (Ferrari) and Programming. I wrote my first line of code in 2022 with Python. Now, I am a Flutter Developer since 1 July 2025, I started Mobile Development in January 2025 with Native Android Development (Kotlin). You can see my all sertificates at my Linkedin and my apps at Github.",
-                            textAlign: TextAlign.start,
-                            style: TextStyle(color: Colors.grey),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
+                SizedBox(height: 100),
+                const Text("I built apps"),
                 SizedBox(height: 100),
                 Text(
                   "My Skills",
                   style: Theme.of(context).textTheme.displayMedium,
                 ),
                 SizedBox(height: 40),
+                
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg",
-                      width: 80,
+                      width: 100,
                     ),
-                    SizedBox(width: 20),
+                    SizedBox(width: 40),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg",
-                      width: 80,
+                      width: 100,
                     ),
-                    SizedBox(width: 20),
+                    SizedBox(width: 40),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg",
-                      width: 160,
+                      width: 180,
                     ),
-                    SizedBox(width: 20),
+                    SizedBox(width: 40),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg",
-                      width: 80,
+                      width: 100,
                     ),
-                    SizedBox(width: 20),
+                    SizedBox(width: 40),
                     SvgPicture.network(
-                      "https://upload.wikimedia.org/wikipedia/commons/3/31/Apple_logo_white.svg",
-                      width: 80,
+                      "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+                      width: 100,
+                    ),
+                    SizedBox(width: 40),
+                    SvgPicture.network(
+                      "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon~old.svg",
+                      width: 100,
                     ),
                   ],
                 ),
@@ -147,36 +121,34 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/python/python-icon.svg",
-                      width: 80,
+                      width: 100,
                     ),
-                    SizedBox(width: 20),
+                    SizedBox(width: 30),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-                      width: 80,
+                      width: 100,
                     ),
-                    SizedBox(width: 20),
+                    SizedBox(width: 30),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-                      width: 80,
+                      width: 100,
                     ),
-                    SizedBox(width: 20),
+                    SizedBox(width: 30),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/android/android-icon.svg",
-                      width: 80,
+                      width: 100,
                     ),
-                    SizedBox(width: 20),
+                    SizedBox(width: 30,),
+                    SvgPicture.network(
+                      "https://upload.wikimedia.org/wikipedia/commons/3/31/Apple_logo_white.svg",
+                      width: 100,
+                    ),
+                    SizedBox(width: 30),
                     SvgPicture.network(
                       "https://www.vectorlogo.zone/logos/java/java-icon.svg",
-                      width: 80,
+                      width: 100,
                     ),
-                    SvgPicture.network(
-                      "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
-                      width: 80,
-                    ),
-                    SvgPicture.network(
-                      "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon~old.svg",
-                      width: 80,
-                    ),
+                    
                   ],
                 ),
                 SizedBox(height: 80),

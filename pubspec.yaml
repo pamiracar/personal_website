@@ -27,7 +27,7 @@ flutter:
     - assets/images/
 
   fonts:
-    - family: JetBrainsMono
+    - family: MonaSans
       fonts:
-        - asset: assets/fonts/jet_brains_mono.ttf
+        - asset: assets/fonts/mona_sans.ttf
 

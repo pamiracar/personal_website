@@ -53,7 +53,7 @@ class AppTheme {
           color: _primaryWhite,
           fontSize: 18,
           fontWeight: FontWeight.w600,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         iconTheme: const IconThemeData(color: _primaryWhite),
       ),
@@ -84,68 +84,68 @@ class AppTheme {
           color: _primaryWhite,
           fontSize: 40,
           fontWeight: FontWeight.w700,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         displayMedium: TextStyle(
           color: _primaryWhite,
           fontSize: 28,
           fontWeight: FontWeight.w600,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         displaySmall: TextStyle(
           color: _primaryWhite,
           fontSize: 24,
           fontWeight: FontWeight.w600,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         headlineLarge: TextStyle(
           color: _primaryWhite,
           fontSize: 22,
           fontWeight: FontWeight.w600,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         headlineMedium: TextStyle(
           color: _primaryWhite,
           fontSize: 20,
           fontWeight: FontWeight.w500,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
 
         titleLarge: TextStyle(
           color: _primaryWhite,
           fontSize: 18,
           fontWeight: FontWeight.w500,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         titleMedium: TextStyle(
           color: Colors.grey,
           fontSize: 16,
           fontWeight: FontWeight.w500,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         bodyLarge: TextStyle(
           color: _primaryWhite,
           fontSize: 16,
           fontWeight: FontWeight.w400,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         bodyMedium: TextStyle(
           color: _primaryWhite,
           fontSize: 14,
           fontWeight: FontWeight.w400,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         bodySmall: TextStyle(
           color: _textGray,
           fontSize: 12,
           fontWeight: FontWeight.w400,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         labelLarge: TextStyle(
           color: _primaryWhite,
           fontSize: 14,
           fontWeight: FontWeight.w500,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
       ),
 
@@ -186,19 +186,19 @@ class AppTheme {
           color: _textGray,
           fontSize: 16,
           fontWeight: FontWeight.w400,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         labelStyle: const TextStyle(
           color: _textGray,
           fontSize: 16,
           fontWeight: FontWeight.w400,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
         floatingLabelStyle: const TextStyle(
           color: _primaryWhite,
           fontSize: 14,
           fontWeight: FontWeight.w500,
-          fontFamily: 'JetBrainsMono',
+          fontFamily: 'MonaSans',
         ),
       ),
 
@@ -220,7 +220,7 @@ class AppTheme {
           textStyle: const TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.w500,
-            fontFamily: 'JetBrainsMono',
+            fontFamily: 'MonaSans',
           ),
         ).copyWith(
           overlayColor: MaterialStateProperty.all(_glassHighlight),
@@ -238,7 +238,7 @@ class AppTheme {
           textStyle: const TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.w500,
-            fontFamily: 'JetBrainsMono',
+            fontFamily: 'MonaSans',
           ),
         ).copyWith(
           overlayColor: MaterialStateProperty.all(_glassHighlight),
@@ -260,7 +260,7 @@ class AppTheme {
           textStyle: const TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.w500,
-            fontFamily: 'JetBrainsMono',
+            fontFamily: 'MonaSans',
           ),
         ).copyWith(
           overlayColor: MaterialStateProperty.all(_glassHighlight),
